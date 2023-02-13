@@ -9,18 +9,10 @@
     "tests:webkit": "playwright test --config=playwright.config.ts --project=Webkit",
     "tests:e2e": "playwright test --config=e2e.config.ts --project=Chromium"
   },
-  "author": "Stefano Ramponi",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "@playwright/test": "^1.30.0",
-    "playwright-test": "^8.2.0",
-    "prettier": "^2.8.4"
-  },
-  "directories": {
-    "test": "tests"
-  },
-  "repository": {
-    "type": "git",
-    "url": "Automated software testing"
+    "@playwright/test": "^1.16.3",
+    "prettier": "^2.5.0"
   }
 }
